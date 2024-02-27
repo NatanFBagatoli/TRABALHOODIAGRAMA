@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T19:54:36.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.7" etag="dKdXKxiZ-JtOSx-CijFB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T19:54:43.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Zf8mr23dmoM-TuS6U-NZ" version="23.1.7" type="github">
   <diagram name="Página-1" id="7jKMIYT0Pc3VnGE3EfJu">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-1" value="Jogador" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-2" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeKSwSZ-WwqgXji9FAFc-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="400" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-3" value="Olhar mapa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="365" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-4" value="Atacar criaturas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-5" value="Explorar o mundo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-6" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeKSwSZ-WwqgXji9FAFc-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-7" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeKSwSZ-WwqgXji9FAFc-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="390" as="sourcePoint" />
+            <mxPoint x="490" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-8" value="Mago" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="770" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-9" value="Dragão" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="770" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-10" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="520" as="sourcePoint" />
+            <mxPoint x="680" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-11" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-12" value="Elfo" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="770" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-13" value="" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="320" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-14" value="Lança feitiço" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-15" value="Gospe fogo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TeKSwSZ-WwqgXji9FAFc-16" value="Lança flecha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
